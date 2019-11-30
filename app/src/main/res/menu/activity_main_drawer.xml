@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_promotion"
+            android:title="@string/menu_promotion" />
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/menu_fav" />
+        <item
+            android:id="@+id/nav_fb"
+            android:icon="@drawable/ic_facebook"
+            android:title="@string/menu_fb" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="@string/menu_feedback" />
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about"
+                android:title="@string/menu_about" />
+
+
+
+</menu>

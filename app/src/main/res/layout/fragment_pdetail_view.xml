@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="detailview.PdetailView"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+
+        >
+        <ImageView
+            android:id="@+id/back"
+            android:layout_marginLeft="20dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/whiteback"/>
+        <TextView
+            android:id="@+id/ptitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Brand New"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+
+                <ImageView
+                    android:layout_toLeftOf="@+id/savefav"
+                    android:id="@+id/phcall"
+                    android:scaleType="fitXY"
+                    android:layout_marginRight="25dp"
+                    android:src="@drawable/ic_phone"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    />
+
+            <RelativeLayout
+                android:id="@+id/savefav"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true">
+                <ImageView
+                    android:id="@+id/before"
+                    android:scaleType="fitXY"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/ic_beforefav"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    />
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/after"
+                    android:scaleType="fitXY"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/ic_afterfav"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+<ImageView
+    android:id="@+id/ppimg"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:scaleType="centerInside"
+   />
+ <RelativeLayout
+     android:layout_marginTop="13dp"
+     android:layout_marginBottom="3dp"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+     <TextView
+         android:paddingLeft="10dp"
+         android:paddingRight="10dp"
+         android:gravity="center"
+         android:layout_height="40dp"
+         android:id="@+id/price"
+         android:textColor="@color/white"
+         android:background="#6200EA"
+         android:layout_width="wrap_content"
+
+         android:text="250000 ks"
+         android:textSize="23dp"
+         />
+
+     <TextView
+         android:layout_toRightOf="@+id/price"
+         android:id="@+id/pname"
+         android:layout_width="wrap_content"
+         android:gravity="center"
+         android:layout_height="40dp"
+         android:background="#00C853"
+         android:paddingLeft="10dp"
+         android:paddingRight="10dp"
+         android:text="Samsung"
+         android:textColor="@color/white"
+         android:textSize="18dp" />
+     <TextView
+        android:id="@+id/shopname"
+         android:layout_height="40dp"
+         android:textColor="@color/white"
+         android:background="#FF6D00"
+         android:layout_toRightOf="@+id/pname"
+         android:layout_width="match_parent"
+         android:gravity="center"
+         android:text="Day Light Mobile"
+         android:textSize="18dp"/>
+ </RelativeLayout>
+     <TextView
+         android:lineSpacingExtra="8dp"
+
+         android:layout_margin="10dp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/detail"
+         android:textSize="18dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

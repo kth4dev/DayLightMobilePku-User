@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "1040339036566",
+    "firebase_url": "https://day-light-a0c0a.firebaseio.com",
+    "project_id": "day-light-a0c0a",
+    "storage_bucket": "day-light-a0c0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040339036566:android:bc88f7dbe824bdfaf7d5b7",
+        "android_client_info": {
+          "package_name": "daylight.com.daylightmobilepakokku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040339036566-4585es10486l78ipljldflaqtsgocj0r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "daylight.com.daylightmobilepakokku",
+            "certificate_hash": "f21eb983dc875e4316d3eb937d9cad36cc325550"
+          }
+        },
+        {
+          "client_id": "1040339036566-a1a14lt7aatc1hasib1aitkvsf7lfuj8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFI3AXz5CAqNv3KBGhfq6PT1G5d--es5c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040339036566-a1a14lt7aatc1hasib1aitkvsf7lfuj8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040339036566:android:0fe6daa242de7d88f7d5b7",
+        "android_client_info": {
+          "package_name": "daylight.com.dl_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040339036566-o7dmvan9umcuvisekjd85snj76ev46bj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "daylight.com.dl_admin",
+            "certificate_hash": "f21eb983dc875e4316d3eb937d9cad36cc325550"
+          }
+        },
+        {
+          "client_id": "1040339036566-a1a14lt7aatc1hasib1aitkvsf7lfuj8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFI3AXz5CAqNv3KBGhfq6PT1G5d--es5c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040339036566-a1a14lt7aatc1hasib1aitkvsf7lfuj8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040339036566:android:a5930274daa19158f7d5b7",
+        "android_client_info": {
+          "package_name": "fivestar.com.daylight"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040339036566-ipioi7h9h50q908kil1ffdjgfrv1h7qu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fivestar.com.daylight",
+            "certificate_hash": "f21eb983dc875e4316d3eb937d9cad36cc325550"
+          }
+        },
+        {
+          "client_id": "1040339036566-a1a14lt7aatc1hasib1aitkvsf7lfuj8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFI3AXz5CAqNv3KBGhfq6PT1G5d--es5c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040339036566-a1a14lt7aatc1hasib1aitkvsf7lfuj8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
